@@ -9,6 +9,7 @@ Each app gets its own **rolling release tag**; assets are versioned by filename:
 | App | Tag | Site | Assets |
 |-----|-----|------|--------|
 | DiskLoupe | [`diskloupe`](../../releases/tag/diskloupe) | <https://diskloupe.com> | `DiskLoupe-<v>.dmg` (download), `DiskLoupe-<v>.zip` (auto-update) |
+| StreamCheck | [`streamcheck`](../../releases/tag/streamcheck) | <https://www.ptrandco.com/streamcheck> | `StreamCheck-<v>.dmg` (download), `StreamCheck-<v>.zip` (auto-update) |
 
 Each app's in-app Sparkle updater reads an appcast on that app's own site, which
 points at the `.zip` assets here. Downloads are free and unauthenticated; the
